@@ -1,0 +1,49 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Javascript onSubmit Event Example</title>
+	</head>
+	<body>
+		<form id="form">
+			<label for="username">Username</label>
+			<input
+				type="text"
+				name=""
+				id="username"
+				placeholder="Enter the Username"
+			/>
+			<label for="password">Password</label>
+			<input
+				type="password"
+				name=""
+				id="password"
+				placeholder="Enter the Password"
+			/>
+			<button>Submit</button>
+
+			<div id="result"></div>
+		</form>
+	</body>
+	<script>
+		let form = document.getElementById("form");
+
+		form.addEventListener("submit", (e) => {
+			e.preventDefault();
+
+			let username = document.getElementById("username").value;
+
+			let password = document.getElementById("password").value;
+
+			if (username == "" || password == "") {
+				alert("Please enter all the fields");
+			} else {
+				document.getElementById("result").innerHTML = `
+            <p>The Username is: ${username}</p>
+            <p>The Password is: ${password}</p>
+            `;
+			}
+		});
+	</script>
+</html>

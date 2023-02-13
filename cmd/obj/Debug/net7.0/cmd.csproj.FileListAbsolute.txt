@@ -1,0 +1,15 @@
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\bin\Debug\net7.0\cmd.exe
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\bin\Debug\net7.0\cmd.deps.json
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\bin\Debug\net7.0\cmd.runtimeconfig.json
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\bin\Debug\net7.0\cmd.dll
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\bin\Debug\net7.0\cmd.pdb
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.csproj.AssemblyReference.cache
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.AssemblyInfoInputs.cache
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.AssemblyInfo.cs
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.csproj.CoreCompileInputs.cache
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.dll
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\refint\cmd.dll
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.pdb
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\cmd.genruntimeconfig.cache
+E:\Work\Programming\Youssef\fuck uni\dataEntry\cmd\obj\Debug\net7.0\ref\cmd.dll
