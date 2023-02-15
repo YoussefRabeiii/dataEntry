@@ -13,6 +13,12 @@ body {
   justify-content: center;
 }
 
+header,
+footer {
+  background: #4f5c63 !important;
+  box-shadow: 5px 5px 12px #424d53, -5px -5px 12px #5c6b73 !important;
+}
+
 .container {
   width: 100%;
   margin: 10px;
@@ -29,7 +35,7 @@ body {
 }
 
 .inputs {
-  margin: 25px 0;
+  margin-block-end: 25px;
 }
 
 .inputField {
