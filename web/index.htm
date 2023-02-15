@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<script src="script.js" defer></script>
+  <head>
+    <script src="script.js" defer></script>
 
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="container">
-			<h1>Data Entry</h1>
+    <title>Data Entry</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Data Entry</h1>
+    </header>
 
-			<form id="form">
-				<span class="inputField">
-					<label for="fname">First name:</label>
-					<input
-						type="text"
-						id="fname"
-						name="fname"
-						placeholder="first name"
-					/>
-				</span>
+    <div class="container">
+      <form id="form" autocomplete="on">
+        <div class="inputs">
+          <span class="inputField">
+            <label for="fname">First name:</label>
+            <input
+              required
+              id="fname"
+              type="text"
+              name="fname"
+              minlength="1"
+              placeholder="first name"
+            />
+          </span>
 
-				<span class="inputField">
-					<label for="lname">Last name:</label>
-					<input
-						type="text"
-						id="lname"
-						name="lname"
-						placeholder="last name"
-					/>
-				</span>
+          <span class="inputField">
+            <label for="lname">Last name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="last name"
+            />
+          </span>
 
-				<span class="inputField">
-					<label for="age">Age:</label>
-					<input type="number" id="age" name="age" placeholder="18" />
-				</span>
+          <span class="inputField">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="18" min="1" />
+          </span>
 
-				<span class="inputField">
-					<label for="email">Email:</label>
-					<input
-						type="email"
-						id="email"
-						name="email"
-						placeholder="something@domain.com"
-					/>
-				</span>
+          <span class="inputField">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="something@domain.com"
+            />
+          </span>
 
-				<span class="inputField">
-					<label for="address">Address:</label>
-					<input
-						type="text"
-						id="address"
-						name="address"
-						placeholder=" 221B Baker street"
-					/>
-				</span>
+          <span class="inputField">
+            <label for="address">Address:</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder=" 221B Baker street"
+            />
+          </span>
 
-				<button type="submit">Submit</button>
-			</form>
+          <span class="inputField">
+            <label for="uni">University:</label>
+            <input
+              type="text"
+              id="uni"
+              name="uni"
+              placeholder="Delta University"
+            />
+          </span>
+        </div>
 
-			<div id="msg"></div>
-		</div>
-	</body>
+        <div class="btns">
+          <button type="submit">Add</button>
+
+          <!-- type button (default type is submit) so don't delete -->
+          <button type="button" onclick="display()">Display</button>
+          <button type="button" onclick="update()">Update By First Name</button>
+          <button type="button" onclick="remove()">Delete By First Name</button>
+
+          <!-- save as a text file -->
+          <button type="button" onclick="save()">Save</button>
+        </div>
+      </form>
+
+      <div class="dataContainer">
+        <h2>Preview</h2>
+        <div id="data">
+          <h3>
+            Youssef, Rabei, 19, Mansoura University, youssefrabei2003@gmail.com,
+            3 Hossam Rabei St.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container"><h2>Made With ✨</h2></footer>
+  </body>
 </html>
