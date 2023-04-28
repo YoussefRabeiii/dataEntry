@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\mylap\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\Programming\\Youssef\\fuck uni\\dataEntry\\cmd\\cmd.csproj",
+      "projectUniqueName": "F:\\University\\Angel\\Code\\dataEntry\\cmd\\cmd.csproj",
       "projectName": "cmd",
-      "projectPath": "E:\\Work\\Programming\\Youssef\\fuck uni\\dataEntry\\cmd\\cmd.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\Programming\\Youssef\\fuck uni\\dataEntry\\cmd\\obj\\",
+      "projectPath": "F:\\University\\Angel\\Code\\dataEntry\\cmd\\cmd.csproj",
+      "packagesPath": "C:\\Users\\mylap\\.nuget\\packages\\",
+      "outputPath": "F:\\University\\Angel\\Code\\dataEntry\\cmd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mylap\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
